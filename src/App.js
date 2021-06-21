@@ -7,7 +7,7 @@ class App extends Component {
         characters: []
     };
 
-    removeCharacter = index => {
+    removeCharacter = (index) => {
         const { characters } = this.state;
     
         this.setState({
