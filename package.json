@@ -5,9 +5,9 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^1.1.5"
   },
-  "homepage": "https://taniarascia.github.io/react-tutorial",
+  "homepage": "https://jercylew.github.io/react-tutorial/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -21,7 +21,6 @@
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
     "not ie <= 11",
     "not op_mini all"
   ]
