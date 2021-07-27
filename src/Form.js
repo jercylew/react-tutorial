@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+//Render the node using class (which extends React's Component)
 class Form extends Component {
     constructor(props) {
         super(props);
@@ -12,10 +13,10 @@ class Form extends Component {
         this.state = this.initialState;
     }
 
-    handleChange = event => {
-        const { name, value } = event.target;
+    handleChange = (event) => {
+        const { name, value } = event.target; //object as: {name:name, value:value}
 
-        this.setState({
+        this.setState({         //Partial update with ES6 computed property
             [name] : value
         });
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Function to render the node
 const TableHeader = () => { 
     return (
         <thead>
@@ -12,7 +13,8 @@ const TableHeader = () => {
     );
 }
 
-const TableBody = props => { 
+//Function to render the node
+const TableBody = (props) => { 
     const rows = props.characterData.map((row, index) => {
         return (
             <tr key={index}>
@@ -26,6 +28,7 @@ const TableBody = props => {
     return <tbody>{rows}</tbody>;
 }
 
+//Function to render the node
 const Table = (props) => {
     const { characterData, removeCharacter } = props;
         return (

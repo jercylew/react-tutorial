@@ -22,7 +22,7 @@ class App extends Component {
     }
 
     render() {
-        const { characters } = this.state;
+        const { characters } = this.state; //Get the characters
         
         return (
             <div className="container">
